@@ -1,0 +1,108 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2513
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww20640\viewh15840\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 assert exception -  assert str(exp.value) == 'math range error'\
+\
+conftest.py - conftest.py is where you setup test configurations and store the testcases that are used by test functions. The configurations and the testcases are called fixture in pytest.\
+\
+dir - while debugging, the function dir(object) returns a list of attributes and methods of any object (such as functions, modules, strings, lists, dictionaries, and more).\
+\
+Docker - A Python library for the Docker Engine API. It lets you do anything the docker command does, but from within Python apps \'96 run containers, manage containers, manage Swarms, etc. For more information about the Engine API, see its documentation.\
+\
+fixture - Software test fixtures initialize test functions. They provide a fixed baseline so that tests execute reliably and produce consistent, repeatable, results. Initialization may setup services, state, or other operating environments. These are accessed by test functions through arguments; for each fixture used by a test function there is typically a parameter (named after the fixture) in the test function\'92s definition.\
+\
+flake8 - flake8 is a wrapper around PyFlakes, pycodestyle, and a McCabe script. It is the most commonly used tool for linting in Python. \
+\
+flake8 - annotations-complexity, to name complex types\
+\
+flake8 - cognitive-complexity - validates cognitive functions complexity\
+\
+flake8 - expression-complexity - make sure that single expressions are not too complicated; similar to cyclomatic complexity for functions / classes.\
+\
+flake8 - functions - report too long functions and functions with too many arguments\
+\
+happy path - we should define happy path (positive case) and sad path (negative case) unit tests separately to organize test suite into small segments that are easy to manage and underscore how the system behaves. Separating sad and happy path tests also helps other developers quickly understand your system. Instead of having large tests with many different types of cases, we can separate psotive and negative cases into their own functions.\
+\
+html DOM structure - The HTML DOM is an Object Model for HTML. It defines: HTML elements as objects. Properties for all HTML elements. Methods for all HTML elements.\
+\
+inputs - With positive and negative case tests (also known as happy and sad path tests), we can test if our source code handles valid and invalid inputs, actions to be performed and output results.\
+\
+McCabe complexity - a Complexity Measure: CC = E - N + 2*P, The first letter shows the type of block (F for function, C for class). Then radon gives the line number, the name of the class/function, a grade (A, B, C, D, E, or F), and the actual complexity as a number. Typically, a complexity below 10 is ok.\
+\
+Mutation testing - test if the python code has some mutations ( operator, keyword, name, argument, string, \'85). Mutmut library in python identifies code mutants and produces a list of redundant files.\
+\
+mutmut - a mutation testing library/tool. \
+\
+nox - nox is a command-line tool that automates testing in multiple Python environments, similar to tox. \
+\
+parametrisation - Parameterization is the process of taking values or objects defined within a function or a method, and making them parameters to that function or method, in order to generalize the code. This process is also known as the \'93extract parameter\'94 refactoring.\
+\
+property based testing - Property-based tests are designed to test the aspects of a property that should always be true. They allow for a range of inputs to be programmed and tested within a single test, rather than having to write a different test for every value that you want to test.\
+\
+pylint - pylint is one of the most wide-spread linters in Python. E.g. revise duplicates.\
+\
+pyroma - pyroma rates how well a Python project complies with the best practices of the Python packaging ecosystem.\
+\
+pytest - run pytest for a specific function by supplying a part of its name as a keyword: pytest -k <test_function_name>\
+\
+pytest flakes - py.test plugin for efficiently checking python source with pyflakes.\
+\
+radon - Radon is a Python tool that computes various metrics from the source code. Radon can compute: McCabe\'92s complexity (i.e. cyclomatic complexity), raw metrics (these include SLOC, comment lines, blank lines, &c.), halstead metrics (all of them), maintainability Index (the one used in Visual Studio).\
+\
+sad path test - we dont want transformed data twice. A sad path or negative case test should focus on whether your system handles invalid inputs by either throwing an exception or logging that an action could not be taken while continuing code execution. A sad path test should focus on how your system avoid unexpected behaviors that could degrade it's capabilities. The sad path test should also verify the system has handled the invalid behavior.\
+\
+scope - session, module, class, function. \
+\
+selenium - python library. A web testing library for Robot Framework that utilizes the Selenium tool internally. \
+\
+selenium bindings - Selenium Python bindings provide an easy to use API to write functional acceptance tests using Selenium WebDriver. The Selenium Python API allows users to access various functionalities of the Selenium WebDriver in an intuitive way.\
+\
+TDD - It gives the developer a process for defining behaviors before solving it with code and also prevents scope creep as the developer iterates through a short development cycle from red to green and then the refactor phase. Test-driven development with behavior in mind helps you organize your system in terms of its functionality. It also keeps you organized as you develop functionality in small pieces.\
+\
+teardown - Method called immediately after the test method has been called and the result recorded. This is called even if the test method raised an exception, so the implementation in subclasses may need to be particularly careful about checking internal state. Any exception, other thanAssertionError or SkipTest, raised by this method will be considered an additional error rather than a test failure (thus increasing the total number of reported errors). This method will only be called if the setUp() succeeds, regardless of the outcome of the test method. The default implementation does nothing.\
+\
+test automation - makes cross-device and cross-browser testing easy, ensures regression testing, decreases cost and time of testing\
+\
+tox - tox aims to automate and standardize testing in Python. It is part of a larger vision of easing the packaging, testing and release process of Python.\
+\
+unit test - The unittest unit testing framework was originally inspired by JUnit and has a similar flavor as major unit testing frameworks in other languages. It supports test automation, sharing of setup and shutdown code for tests, aggregation of tests into collections, and independence of the tests from the reporting framework.\
+\
+VS Code - Visual studio code - easy unit testing.\
+\
+waits - Waits are added to allow a time interval so that the presence of certain elements which take longer than the others to load can be ensured before a given action is performed in the script. Waits are split to explicit and implicit. Explicit waits are used to pause the script until a certain condition has been satisfied. Explicit waits can be used to pause until various conditions such as the presence of an element, presence of an alert, presence of a frame, etc. have been satisfied.\
+\
+webdriver - module in selenium library. \
+\
+wily - a command-line application for tracking, reporting on the complexity of Python tests and applications.\
+\
+xenon - relies on radon.\
+\
+X Path - As the absolute xpath is specified right from the root node to the element, any changes in the application structure could render it invalid. Hence, it is advised to use relative xpath.\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+https://docs.python.org/3/library/unittest.html \
+https://pypi.org/project/selenium/ \
+https://medium.com/swlh/unit-testing-in-python-basics-21a9a57418a0 \
+https://docs.python.org/3/library/unittest.html#assert-methods \
+https://pypi.org/project/radon/ \
+https://www.jetbrains.com/help/pycharm/viewing-actual-html-dom.html \
+https://pypi.org/project/wily/ \
+https://medium.com/analytics-vidhya/unit-testing-in-python-mutation-testing-7a70143180d8 \
+https://docker-py.readthedocs.io/en/stable/ \
+https://towardsdatascience.com/testing-best-practices-for-machine-learning-libraries-41b7d0362c95\
+https://docs.python.org/3/library/doctest.html \
+https://docs.pytest.org/en/6.2.x/fixture.html \
+https://github.com/me-diru/learn_tdd/tree/main/dockerized-pytest-course-master/tests \
+https://www.linkedin.com/learning/unit-testing-in-python/sad-path-testing?autoSkip=true&autoplay=true&resume=false \
+https://www.linkedin.com/learning/test-automation-with-python-2-python-for-testers/getting-python?autoplay=true&contextUrn=urn%3Ali%3AlearningCollection%3A6833629718554648576&resume=false}
